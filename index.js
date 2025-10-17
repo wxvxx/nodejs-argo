@@ -42,6 +42,7 @@ function generateRandomName() {
   return result;
 }
 
+// 全局常量
 const npmName = generateRandomName();
 const webName = generateRandomName();
 const botName = generateRandomName();
@@ -240,7 +241,7 @@ disable_force_update: true
 disable_nat: false
 disable_send_query: false
 gpu: false
-insecure_tls: false
+insecure_tls: true
 ip_report_period: 1800
 report_delay: 4
 server: ${NEZHA_SERVER}
