@@ -1,14 +1,15 @@
 {
-  "name": "nodejsserver",
+  "name": "myservice",
   "version": "1,0,0",
-  "description": "Thsi is a node project",
+  "description": "myservice",
   "main": "index.js",
   "scripts": {
     "dev": "node index.js",
     "start": "node index.js"
   },
   "dependencies": {
-    "node-sbx": "latest"
+    "axios": "latest",
+    "express": "^4.18.2"
   },
   "engines": {
     "node": ">=14"
